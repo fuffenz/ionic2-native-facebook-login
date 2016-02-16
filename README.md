@@ -42,9 +42,10 @@ Add your platform
 $ ionic platform add android 
 ```
 
-Finally, build your app and run it on a device.
+Finally, update node modules, build your app and run it on a device.
   
 ```bash
+$ npm install
 $ ionic build android
 $ ionic run android    
 ```
