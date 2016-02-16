@@ -6,16 +6,16 @@
 
 I assume that you know how to build an Ionic2 app and that you have registered your Facebook app with Facebook and have an `APP_ID` and `APP_NAME` [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
-You can use this repo as a starter project:
+Clone this repo:
 
 ```bash
-$ ionic start myApp https://github.com/fuffenz/ionic2-native-facebook-login
+$ git clone git@github.com:fuffenz/ionic2-native-facebook-login.git
 ```
 
 CD into your new folder
 
 ```bash
-$ cd myApp
+$ cd ionic2-native-facebook-login
 ```
 
 Add a cordova plugin for Facebook SDK.  Make sure to use your own APP_ID and APP_NAME:
@@ -35,7 +35,7 @@ Add the Cordova whitelist to make sure your app can talk to other sites.  Notice
 ```bash
 $ cordova plugin add --save cordova-plugin-whitelist 
 ```
-
+ 
 Add your platform 
  
 ```bash
