@@ -1,0 +1,21 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Facebook auth demo
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+  <ion-card>
+    <ion-card-header>
+      Click a button. Any button.
+    </ion-card-header>
+    <ion-card-content>
+      <button (click)="login()">login with Facebook</button>
+      <ion-card padding [hidden]="id == ''">
+        <p>Name: {{name}}</p>
+        <p>Email: {{email}}</p>
+        <p>id: {{id}}</p>
+      </ion-card>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
